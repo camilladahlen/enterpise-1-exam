@@ -1,8 +1,8 @@
-#Oppgaven: 
+# Oppgaven: 
 
-##PG5100 Enterprise programmering 1 Final exam - Spring 2022
+## PG5100 Enterprise programmering 1 Final exam - Spring 2022
 
-#Assignment
+# Assignment
 
 The final exam for this course is a 48-hour home exam. You will be working individually, this is not a group exam.
 The assignment is to create a working API for an animal shelter. You will not be building the frontend, just the API. You will build the server, according to the following requirements:
@@ -12,7 +12,7 @@ You must use Spring Data JPA to persist data, using Entity classes and Repositor
 You must secure the application using Spring Security. You will handle login via a username and password sent in the body of a POST request, which, once authenticated, will return a JWT token inside a cookie to the user. All other requests should use this token for authorisation. You will need to set different authority levels (Admin, User, etc), and set which authorities have access to which endpoints.
 You must implement integration testing using Spring’s testing tools, TestContainers, as well as MockK if you need to mock anything.
 
-#Specifications
+# Specifications
 
 The server is for managing data for an animal shelter, that would be used for API calls by a frontend (you are not implementing the frontend).
 The API should provide the following functionality: • Retrieve all animals
